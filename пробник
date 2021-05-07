@@ -1,0 +1,23 @@
+a, b, c, d = int(input()), int(input()), int(input()), int(input());
+for j in range(a, b + 2):
+    for i in range(c, d + 1):
+        if j == a:
+            if (i == c) and (j == a):
+                if i == d:
+                    print('', end='\t')
+                    print(i)
+                else:
+                    print('', end='\t')
+                    print(i, end='\t')
+            elif i == d:
+                print(i)
+                print(j, end='\t')
+            else:
+                print(i, end='\t')
+        else:
+            if j == a + 1:
+                if (a == b) and (c == d):
+                    print(j-1, end='\t')
+
+
+
